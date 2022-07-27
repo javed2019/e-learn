@@ -238,7 +238,34 @@
                 </div>
 
                 <div class="w-50 d-flex align-items-center justify-content-end">
-                    <button type="button" class="btn btn-warning px-5 fs-5 text-light fw-bold">Register Now</button>
+                    <button type="button" class="btn btn btn-warning px-5 fs-5 text-light fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Name:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Email ID: </label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-warning">Send Request</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
 
             </div>
@@ -247,8 +274,9 @@
 
         <br>
         <br>
+
         
-    <!-- Section-5-Ready to joi:End -->
+    <!-- Section-5-Ready to join:End -->
 
     <!-- Section-6 (Optional)-Students:Start -->
     <!-- Section-6-Students:End -->
