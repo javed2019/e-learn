@@ -1,0 +1,30 @@
+.card-1{
+    display: flex;
+
+}
+
+@media only screen and (max-device-width: 667px) {
+    .card-1{
+        display: flex;
+        flex-direction: column;
+        }
+    
+    .flexible-card-image{
+        min-width: 100%;
+    }
+}
+
+/* @media only screen and (min-device-width: 668px) and (max-device-width: 1024px) {
+    .card-1{
+        display: flex;
+
+        }
+    
+    .image-div{
+        width: 30%;
+    }
+
+    .flexible-card-image{
+        width:10vh;
+    }
+} */
