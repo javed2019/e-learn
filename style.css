@@ -26,6 +26,10 @@
     visibility: hidden;
 }
 
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+}
 
 @media only screen and (max-device-width: 767px) {
     .card-1{
