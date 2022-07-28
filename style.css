@@ -100,14 +100,30 @@
    }
 
    .trust-section{
-        visibility: hidden;
+        visibility:hidden;
    }
+
+   .carousel-caption{
+    position: absolute;
+    top: 10%;
+    font-size: 10px;
+    }
+    
+    .carousel-caption p{
+        font-size: 1rem !important;
+    }
+
+    .carousel-caption h1{
+        font-size: 1rem !important;
+    }
 
    html,body {
     width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+
+    
 }
 
 
@@ -138,4 +154,54 @@
         overflow-x: hidden; 
     }
 
+    .carousel-caption{
+        position: absolute;
+        top: 30%;
+    }
+
+    .explore-div{
+        display: flex;
+        flex-direction: row;
+        height: 45.6vh;
+        padding: 1px;
+        margin: 0px;
+    }
+
+    .explore-p p{
+        width:100%;
+        margin: 2px;
+        height: 7vh;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+
+    .explore-h1 h1{
+        font-size:medium;
+        font-weight: bold;
+    }
+
+   .explore-stat{
+        display:flex;
+        flex-direction: column;
+        margin: 2px;
+        padding: 2px;
+   }
+
+   .photo{
+        width: ;
+    }
+
+    .institute-desc{
+        height: 5vh;
+    }
+   .explore-button{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+   }
+
+   .trust-section{
+    visibility:hidden;
+}
 }
