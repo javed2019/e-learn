@@ -22,21 +22,24 @@
     margin: 0.5em;
 }
 
-.view-all-btn{
-    visibility: hidden;
-}
-
 .carousel-caption{
     position: absolute;
     top: 40%;
 }
 
 @media only screen and (max-device-width: 767px) {
+   
     .card-1{
         display: flex;
         flex-direction: column;
         }
+
+        .card-wrapper{
+            display: grid;
+            }
     
+
+
     .flexible-card-image{
         min-width: 100%;
     }
@@ -56,9 +59,58 @@
         justify-content: center !important;
     }
 
-    .view-all-btn{
-        visibility:visible;
+    .explore-div{
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
+        margin: 0px;
     }
+
+    .explore-p p{
+        width:100%;
+        margin: 2px;
+        height: 12vh;
+        white-space: wrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+
+    .explore-h1 h1{
+        font-size:medium;
+    }
+
+   .explore-stat{
+        display: grid;
+        grid-template-rows: repeat(1fr);
+        margin: 2px;
+        padding: 2px;
+   }
+
+   .explore-button{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+   }
+
+   .ready-to-join{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        left: 0%;
+   }
+
+   .trust-section{
+        visibility: hidden;
+   }
+
+   html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
@@ -79,7 +131,11 @@
 
     }
 
-    .view-all-btn{
-        visibility:visible;
+    html,body {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
     }
+
 }
