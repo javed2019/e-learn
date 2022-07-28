@@ -9,6 +9,11 @@
     <!-- Bootstrap CSS Integration: Start -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- Bootstrap CSS Integration: End -->
+
+    <!-- Font-Awesome KIT Integration: Start -->
+    <script src="https://kit.fontawesome.com/e01e2ba4a1.js" crossorigin="anonymous"></script>
+    <!-- Font-Awesome KIT Integration: End -->
+
 </head>
 <body>
     <!-- Bootstrap JS Integration: Start -->
@@ -50,7 +55,7 @@
                   </li>
                 </ul>
                 <span class="navbar-text">
-                    <button type="button invisible-sm" class="btn btn-outline-warning">Warning</button>
+                    <button type="button invisible-sm" class="btn btn-outline-warning">Register</button>
                 </span>
               </div>
             </div>
@@ -170,7 +175,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-lg-6 d-flex">
+            <div class="col-lg-6 d-flex d-none d-lg-block d-xl-block">
                 <div class="card-1 m-3 border d-flex rounded">
                     <div class="">
                         <img class="flexible-card-image" src="./images/course/course-4.png" alt="">
@@ -187,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-lg-6 d-flex">
+            <div class="col-lg-6 d-flex d-none d-lg-block d-xl-block">
                 <div class="card-1 m-3 border d-flex rounded">
                     <div class="">
                         <img class="flexible-card-image" src="./images/course/course-5.png" alt="">
@@ -203,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-lg-6 d-flex">
+            <div class="col-lg-6 d-flex d-none d-lg-block d-xl-block">
                 <div class="card-1 m-3 border d-flex rounded">
                     <div class="">
                         <img class="flexible-card-image" src="./images/course/course-6.png" alt="">
@@ -220,6 +225,11 @@
             </div>
 
         </div>
+        <div class="view-all-btn d-flex justify-content-center p-3">
+            <button type="button" class="btn btn-warning fw-bold text-light px-5">View All</button>
+        </div>
+        
+
         <br>
         <br>
 
@@ -231,13 +241,13 @@
     <!-- Section-5 (Bonus)-Ready to join:Start -->
 
         <div class="container">
-            <div class=" bg-warning bg-opacity-25 text-danger p-5  rounded d-flex">
-                <div class="w-50">
+            <div class="ready-to-join bg-warning bg-opacity-25 text-danger p-5  rounded d-flex ">
+                <div class="ready-to-join-text w-50">
                     <h2>Ready to join?</h2>
                     <p class="fs-4">Register yourself to receive maximum benefit from our learning academy for the advancement of your career!</p>
                 </div>
 
-                <div class="w-50 d-flex align-items-center justify-content-end">
+                <div class="ready-to-join-button w-50 d-flex align-items-center justify-content-end">
                     <button type="button" class="btn btn btn-warning px-5 fs-5 text-light fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
 
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -282,11 +292,240 @@
     <!-- Section-6-Students:End -->
 
     <!-- Section-7-Feedback:Start -->
+
+    <section class="container">
+        <div class="course-heading m-5 text-center">
+            <h1>Some Students Feedback</h1>
+            <h5 class="text-secondary">Our students are our testimonials. Check their stateents and decide yourself. </h5>
+        </div>
+    
+        <div id="carouselExampleControls" class="carousel carousel-dark slide px-" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-wrapper">
+                    <div class="card p-3">
+                        <div class="feedback-top-row d-flex align-items-center justify-content-between">
+                            <div class="quotation-mark text-left">
+                                <p class="fs-1 text-secondary"><i class="fa-solid fa-quote-right"></i></p>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right">
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-regular fa-star empty-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="text-secondary">
+                            <p>As a beginner in web development, I feel lacking in my user interface related knowledge. I heard Mr. Jhankar Mahbub praised this course stating that, it has changed his career! I took the course and now I have multiple job offer in Australia!!! Thanks Javed for this course.</p>
+                        </div>
+                
+                        <div class="student-desc d-flex">
+                            <div class="student-photo me-3">
+                                <img src="./images/student/student-5.png" alt="" class="circle-img rounded-circle">
+                            </div>
+                            <div class="student-name-job d-flex flex-column">
+                                <p class="fw-bold p-0 m-0">Steve Jobs</p>
+                                <p>Intern @ Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3">
+                        <div class="feedback-top-row d-flex align-items-center justify-content-between">
+                            <div class="quotation-mark text-left">
+                                <p class="fs-1 text-secondary"><i class="fa-solid fa-quote-right"></i></p>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right">
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-regular fa-star empty-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="text-secondary">
+                            <p>As a beginner in web development, I feel lacking in my user interface related knowledge. I heard Mr. Jhankar Mahbub praised this course stating that, it has changed his career! I took the course and now I have multiple job offer in Australia!!! Thanks Javed for this course.</p>
+                        </div>
+                
+                        <div class="student-desc d-flex">
+                            <div class="student-photo me-3">
+                                <img src="./images/student/student-6.png" alt="" class="circle-img rounded-circle">
+                            </div>
+                            <div class="student-name-job d-flex flex-column">
+                                <p class="fw-bold p-0 m-0">Kamala Harris</p>
+                                <p>Full Stack Developer @ Apple Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                    
+                    <div class="card p-3">
+                        <div class="feedback-top-row d-flex align-items-center justify-content-between">
+                            <div class="quotation-mark text-left">
+                                <p class="fs-1 text-secondary"><i class="fa-solid fa-quote-right"></i></p>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right">
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-regular fa-star empty-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="text-secondary">
+                            <p>As a beginner in web development, I feel lacking in my user interface related knowledge. I heard Mr. Jhankar Mahbub praised this course stating that, it has changed his career! I took the course and now I have multiple job offer in Australia!!! Thanks Javed for this course.</p>
+                        </div>
+                
+                        <div class="student-desc d-flex">
+                            <div class="student-photo me-3">
+                                <img src="./images/student/student-6.png" alt="" class="circle-img rounded-circle">
+                            </div>
+                            <div class="student-name-job d-flex flex-column">
+                                <p class="fw-bold p-0 m-0">Jennifer Laurence</p>
+                                <p>Back-end Developer @ Netflix</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3">
+                        <div class="feedback-top-row d-flex align-items-center justify-content-between">
+                            <div class="quotation-mark text-left">
+                                <p class="fs-1 text-secondary"><i class="fa-solid fa-quote-right"></i></p>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right">
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-regular fa-star empty-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="text-secondary">
+                            <p>As a beginner in web development, I feel lacking in my user interface related knowledge. I heard Mr. Jhankar Mahbub praised this course stating that, it has changed his career! I took the course and now I have multiple job offer in Australia!!! Thanks Javed for this course.</p>
+                        </div>
+                
+                        <div class="student-desc d-flex">
+                            <div class="student-photo me-3">
+                                <img src="./images/student/student-5.png" alt="" class="circle-img rounded-circle">
+                            </div>
+                            <div class="student-name-job d-flex flex-column">
+                                <p class="fw-bold p-0 m-0">Lord Mithun</p>
+                                <p>Cricketer @ BCB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-wrapper">
+                    
+                    <div class="card p-3">
+                        <div class="feedback-top-row d-flex align-items-center justify-content-between">
+                            <div class="quotation-mark text-left">
+                                <p class="fs-1 text-secondary"><i class="fa-solid fa-quote-right"></i></p>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right">
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-regular fa-star empty-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="text-secondary">
+                            <p>As a beginner in web development, I feel lacking in my user interface related knowledge. I heard Mr. Jhankar Mahbub praised this course stating that, it has changed his career! I took the course and now I have multiple job offer in Australia!!! Thanks Javed for this course.</p>
+                        </div>
+                
+                        <div class="student-desc d-flex">
+                            <div class="student-photo me-3">
+                                <img src="./images/student/student-5.png" alt="" class="circle-img rounded-circle">
+                            </div>
+                            <div class="student-name-job d-flex flex-column">
+                                <p class="fw-bold p-0 m-0">Vladimir Putin Jr.</p>
+                                <p>Intern @ Amazon</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-3">
+                        <div class="feedback-top-row d-flex align-items-center justify-content-between">
+                            <div class="quotation-mark text-left">
+                                <p class="fs-1 text-secondary"><i class="fa-solid fa-quote-right"></i></p>
+                            </div>
+                            <div class="rating">
+                                <p class="text-right">
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-solid fa-star solid-star"></i>
+                                    <i class="fa-regular fa-star empty-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                
+                        <div class="text-secondary">
+                            <p>As a beginner in web development, I feel lacking in my user interface related knowledge. I heard Mr. Jhankar Mahbub praised this course stating that, it has changed his career! I took the course and now I have multiple job offer in Australia!!! Thanks Javed for this course.</p>
+                        </div>
+                
+                        <div class="student-desc d-flex">
+                            <div class="student-photo me-3">
+                                <img src="./images/student/student-6.png" alt="" class="circle-img rounded-circle">
+                            </div>
+                            <div class="student-name-job d-flex flex-column">
+                                <p class="fw-bold p-0 m-0">Martina Hingis</p>
+                                <p>Sr. Front-end Developer @ General Electronics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+
+    </section>
+
     <!-- Section-7-Feedback:End -->
 
     <!-- Section-8-FAQ:Start -->
+    <section class="container">
+        <div class="course-heading m-5 text-center m-3">
+            <h1>Frequently Asked Questions</h1>
+            <h5 class="text-secondary">Before enrollment, you might have lots of questions in mind and you should get them straight out before making the right dicision. Its not only your money, but it's about your time that matters the MOST!</h5>
+        </div>
+
+
+    </section>
     <!-- Section-8-FAQ:End -->
 
     <!-- Section-9-Footer:Start -->
     <!-- Section-9-Footer:End -->
+    
+</body>
+
 </html>
